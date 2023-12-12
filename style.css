@@ -280,7 +280,7 @@ section {
     text-align: center;
     padding-top: 0.5rem ;
     padding-bottom: 2rem;
-
+    cursor: pointer;
 }
 
 #grid {
@@ -300,6 +300,7 @@ section {
     background-color: rgba(255, 255, 255, 0.80);
     border-radius: 30px;
     transition: 0.3s;
+	
 }
 
 #grid img {
@@ -378,6 +379,11 @@ section {
 }
 
 #grid div:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+#grid div p:hover {
     transform: scale(1.1);
 }
 
@@ -428,8 +434,6 @@ section {
     padding: 1rem 4rem 1rem 4rem ;
 }
 
-
-
 #Donate {
     display: flex;
     justify-content: center;
@@ -456,8 +460,6 @@ section {
     padding: 1rem 2rem 2rem 2rem ;
 
 }
-
-
 
 #getinvolved img {
     display: block;
@@ -504,25 +506,19 @@ footer {
 
 }
 
-
 footer ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    color: #026452;
     gap: 3rem;
-    fill: #026452;
 }
-
 
 footer img {
     display: block;
     width: 3rem;
     transition: all 0.3s;
-    color: #026452;
     width: 155px;
     height: 155px;
-    fill: #026452;
 }
 
 footer img:hover {
